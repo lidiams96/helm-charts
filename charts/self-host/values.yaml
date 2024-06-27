@@ -97,6 +97,8 @@ secrets:
 component:
   # The Admin component
   admin:
+    # Block to configure topologySpreadConstraints if it's necessary
+    topologySpreadConstraints: []
     # Number of replicas
     replicas: 1
     # Additional deployment labels
@@ -119,6 +121,8 @@ component:
     # Run the pod under a service account you create.  This is especially useful for OpenShift deployments
     podServiceAccount:
   api:
+    # Block to configure topologySpreadConstraints if it's necessary
+    topologySpreadConstraints: []
     # Number of replicas
     replicas: 1
     # Additional deployment labels
@@ -141,6 +145,8 @@ component:
     # Run the pod under a service account you create.  This is especially useful for OpenShift deployments
     podServiceAccount:
   attachments:
+    # Block to configure topologySpreadConstraints if it's necessary
+    topologySpreadConstraints: []
     # Number of replicas
     replicas: 1
     # Additional deployment labels
@@ -163,6 +169,8 @@ component:
     # Run the pod under a service account you create.  This is especially useful for OpenShift deployments
     podServiceAccount:
   events:
+    # Block to configure topologySpreadConstraints if it's necessary
+    topologySpreadConstraints: []
     # Number of replicas
     replicas: 1
     # Additional deployment labels
@@ -185,6 +193,8 @@ component:
     # Run the pod under a service account you create.  This is especially useful for OpenShift deployments
     podServiceAccount:
   icons:
+    # Block to configure topologySpreadConstraints if it's necessary
+    topologySpreadConstraints: []
     # Number of replicas
     replicas: 1
     # Additional deployment labels
@@ -207,6 +217,8 @@ component:
     # Run the pod under a service account you create.  This is especially useful for OpenShift deployments
     podServiceAccount:
   identity:
+    # Block to configure topologySpreadConstraints if it's necessary
+    topologySpreadConstraints: []
     # Number of replicas
     replicas: 1
     # Additional deployment labels
@@ -229,6 +241,8 @@ component:
     # Run the pod under a service account you create.  This is especially useful for OpenShift deployments
     podServiceAccount:
   notifications:
+    # Block to configure topologySpreadConstraints if it's necessary
+    topologySpreadConstraints: []
     # Number of replicas
     replicas: 1
     # Additional deployment labels
@@ -251,6 +265,8 @@ component:
     # Run the pod under a service account you create.  This is especially useful for OpenShift deployments
     podServiceAccount:
   scim:
+    # Block to configure topologySpreadConstraints if it's necessary
+    topologySpreadConstraints: []
     # Number of replicas
     replicas: 1
     # SCIM is disabled by default.  To use this service, enable it below and set an appropriate Ingress path
@@ -275,6 +291,8 @@ component:
     # Run the pod under a service account you create.  This is especially useful for OpenShift deployments
     podServiceAccount:
   sso:
+    # Block to configure topologySpreadConstraints if it's necessary
+    topologySpreadConstraints: []
     # Number of replicas
     replicas: 1
     # Additional deployment labels
@@ -297,6 +315,8 @@ component:
     # Run the pod under a service account you create.  This is especially useful for OpenShift deployments
     podServiceAccount:
   web:
+    # Block to configure topologySpreadConstraints if it's necessary
+    topologySpreadConstraints: []
     # Number of replicas
     replicas: 1
     # Additional deployment labels
